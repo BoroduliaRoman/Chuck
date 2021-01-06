@@ -19,9 +19,9 @@ public class Lesson02 {
 		int i4 = 0x0;
 		
 		long l1 = 123456789L;
-		long l2 = 0b1110_10110_1111_0011_0100_0101_01;
-		long l3 = 0_7267_4642_5;
-		long l4 = 0x75BC_D15;
+		long l2 = 0b1110_10110_1111_0011_0100_0101_01L;
+		long l3 = 0_7267_4642_5L;
+		long l4 = 0x75BC_D15L;
 		
 		float f1 = 3.14f;
 		float f2 = 5.15f;
