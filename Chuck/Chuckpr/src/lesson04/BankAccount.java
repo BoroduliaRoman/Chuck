@@ -5,6 +5,16 @@ public class BankAccount {
 	int id = 10;
 	String name = "Petr";
 	double balance = 100;
+	
+	double popolnenieScheta(double a) {
+		balance += a;
+		return balance;
+	}
+	
+	double snyatieSoScheta(double a) {
+		balance -= a;
+		return balance;
+	}
 
 }
 
@@ -17,7 +27,7 @@ class BankAccountTest {
 		BankAccount hisAccount = new BankAccount();
 		
 		myAccount.id = 1;
-//		myAccount.name = "Roman";
+		myAccount.name = "Roman";
 		myAccount.balance = 12.35;
 		
 		yourAccount.id = 2;
@@ -28,6 +38,6 @@ class BankAccountTest {
 		hisAccount.name = "Ivan";
 		hisAccount.balance = 124.12;
 		
-		System.out.println(myAccount.name);
+		
 	}
 }
