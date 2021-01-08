@@ -18,7 +18,7 @@ public class Employee {
 		
 	}
 	
-	double doubleSalary(double a) {
+	double doubleSalary() {
 		salary *= 2;
 		return salary;
 	}
@@ -28,13 +28,13 @@ public class Employee {
 
 class EmployeeTest {
 	
+	
 	public static void main(String[] args) {
 		
 		Employee e1 = new Employee(1, "Borodulia", 29, 400, "Marketing");
-		System.out.println(e1.doubleSalary(e1.salary));
+		System.out.println(e1.doubleSalary());
 		
 		Employee e2 = new Employee(2, "Selivon", 29, 300, "Farm");
-		System.out.println(e2.doubleSalary(e2.salary));
-		
+		System.out.println(e2.doubleSalary());		
 	}
 }
